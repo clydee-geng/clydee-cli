@@ -21,4 +21,8 @@ Options:
 Commands:
   create <项目目录>  创建一个新的项目
 
+![avatar](https://github.com/clydee-geng/clydee-cli/blob/main/help.png?raw=true)
+
+![avatar](https://raw.githubusercontent.com/clydee-geng/clydee-cli/main/use.gif)
+
 

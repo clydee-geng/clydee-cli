@@ -2,15 +2,15 @@
   "name": "clydee-cli",
   "version": "1.0.0",
   "description": "使用node封装的个人cli工具",
-  "main": "index.js",
+  "repository": "git@github.com:clydee-geng/clydee-cli.git",
+  "author": "clydee <641365724@qq.com>",
   "bin": {
     "clydee-cli": "./dist/dist/clydee-cli.js"
   },
   "keywords": [
     "clydee-cli"
   ],
-  "author": "clydee",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
