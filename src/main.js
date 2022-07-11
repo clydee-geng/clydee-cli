@@ -11,7 +11,7 @@ const chalk = require("chalk");
 console.log(
   chalk.green(
     figlet.textSync("welcome to clydee-cli", {
-      font: "ANSI Shadow",
+      font: FIGLET_FONT_NAME,
       width: 200,
     })
   )

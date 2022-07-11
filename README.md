@@ -1,28 +1,24 @@
 ### 一、简介
-##### `clydee-cli` 基于antdUI，快速创建后台管理页面的Cli工具。（需要配合antd-page-init-comps库一起食用）
+##### `clydee-cli` 使用node封装的个人cli工具
 
 ### 二、使用方法
 
 ##### 1.安装
 ```
-  项目中安装
-  npm i clydee-cli
-  全局安装
   npm i clydee-cli -g
 ```
 
 ##### 2.使用
 
-##### 1）在项目中使用
+Usage: `clydee-cli [options] [command]`
 
-```
-  cd [文件夹]
-  npx clydee-cli
-```
+使用node封装的个人cli工具
 
-##### 2）全局使用
+Options:
+  -v, --version  查看版本号
+  -h, --help     查看所有的用法
 
-```
-  clydee-cli
-```
+Commands:
+  create <项目目录>  创建一个新的项目
+
 
