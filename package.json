@@ -30,6 +30,8 @@
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "build": "rm -rf dist && webpack"
+    "build": "rm -rf dist && webpack",
+    "login": "npm login --registry https://registry.npmjs.org",
+		"pub": "npm run build && npm publish --registry https://registry.npmjs.org"
   }
 }
